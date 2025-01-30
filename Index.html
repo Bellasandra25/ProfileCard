@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Profile Card</title>
+</head>
+<body>
+    <div class="profileCard">
+          <img src="./image/SandraImage.jpeg" alt="Bio-Image" 
+          data-testid="profilePicture"
+          >
+         <h1 data-testid="fullName">Sandra Motunrayo Odubela</h1>
+        <h4 data-testid="jobTitle">Frontend Developer</h4>
+        <p data-testid="shortBio">Hello!!
+            I am Sandra, a passionate frontend developer with a strong foundation in HTML, CSS, 
+            JavaScript, and React. My journey into web development started from a deep curiosity about
+             how websites function and a love for creating visually
+             engaging and user-friendly experiences. Over time, I have honed my skills 
+            in building responsive, interactive interfaces that enhance user engagement.
+            I am always eager to learn and keep up with the latest industry trends, ensuring that I build efficient and scalable solutions.  
+            Currently, I am refining my skills through hands-on projects and collaborations, aiming 
+            to create impactful digital experiences. My goal is to contribute to innovative teams, solve real-world problems with code, and continuously grow as a frontend developer.  
+        </p>
+        <p data-testid="currentLocation">Ekiti, Nigeria</p>
+        <div class="socialLinks" data-testid="socialLinks">
+            <button><a href="https://www.linkedin.com/in/odubela-motunrayo-3957361b8/" target="_blank">linkedin</a></button>
+            <button><a href="https://github.com/bellasandra25/" target="_blank">Github</a></button>           
+            <button><a href="https://x.com/@unendingink" target="_blank">X Account</a></button>        
+        </div>
+        <p id="utcTime" data-testid="currentTimeUTC"></p>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
